@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/* HEADER */
+
+#container {
+
+    width: 320px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+
+header {
+    background-color: #DCDCDC;
+}
+
+.bars {
+    font-size: 15px;
+    width: 10px;
+    height: 4px;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    top: 20px;
+
+}
+
+#firstTitle {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: arial;
+    font-size: 15px;
+    font-stretch: narrower;
+    justify-content: center;
+}
+
+#underline {
+    position: relative;
+    top: -37px;
+    left: 200px;
+    justify-content: flex-end;
+}
+
+#square {
+    position: relative;
+    height: 12px;
+    width: 12px;
+    border: 1px solid black;
+    top: -45px;
+    left: 248px;
+    justify-content: flex-end;
+
+}
+
+
+#cancel {
+    font-size: 18px;
+    font-family: arial;
+    position: relative;
+    top: -62px;
+    left: 290px;
+    justify-content: flex-end;
+}
+
+
+#cancel:hover {
+    background-color: red;
+    color: #FFFF;
+    max-height: max-content;
+    max-width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -60px;
+    left: 280px;
+    margin: 0;
+    justify-content: flex-end;
+
+}
+
+
+#secondTitle {
+    position: relative;
+    left: 55px;
+    top: -40px;
+    display: flex;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* Panel Static */
+
+#template { 
+    width: 320;
+    height: 55px;
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+/* Button panel */
+
+.keybuttons {
+    display: flex;
+    height: 4vh;
+}
+
+.keybuttons div {
+    flex-grow: 1;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 200;
+    text-align: center;
+    border: 1px solid #0000;
+    background-color: #DCDCDC;
+
+}
+
+.keybuttons div:hover {
+    flex-grow: 1;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 200;
+    padding-bottom: 7px;
+    background-color: #D3D3D3;
+
+}
+
+
+.containerButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #DCDCDC;
+}
+
+.containerButtons div {
+    width: 78px;
+    height: 48px;
+    margin: 1px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: arial;
+    background-color: white;
+
+}
+
+
+.containerButtons div:hover {
+    width: 78px;
+    height: 48px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: arial;
+    background-color: #D3D3D3;
+    transition-delay: 0.5ms;
+}
+
+.containerButtons div:active {
+    width: 78px;
+    height: 48px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: arial;
+    background-color: #A9A9A9;
+    transition-delay: 0.5ms;
+}
+
+/* style other buttons */
+
+.containerButtons div:nth-child(1) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(2) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+.containerButtons div:nth-child(3) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(4) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(5) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(6) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(7) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(8) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(12) {
+    font-weight: 200;
+    font-family: segoe UI;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.containerButtons div:nth-child(16) {
+    font-weight: normal;
+    font-family: segoe ui;
+    padding-top: 10px;
+}
+
+.containerButtons div:nth-child(21) {
+    font-family: segoe ui;
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+.containerButtons div:nth-child(24) {
+    background-color: #87CEEB;
+    width: 78px;
+    height: 48px;
+    font-family: segoe ui;
+    padding-top: 10px;
+}
+
+.containerButtons div:nth-child(24):hover {
+    background-color: #4682B4;
+    width: 78px;
+    height: 48px;
+    font-family: segoe ui;
+}
+
+.containerButtons div:nth-child(24):active {
+    background-color: #00BFFF	;
+}
+
+/* Button border */
+
+.border {
+    border: solid 1px #DCDCDC;
+    padding-top: 15px;
+}
+
+/* Window config */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
